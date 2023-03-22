@@ -1,5 +1,7 @@
 ipq6000系列固件分享:  
 
+2023.3.22 clash使用成本太高了，还是建议大家用回passwall吧。SSR也删掉了，
+
 2023.2.23 statistics还是有点问题，luci不能输出图表，再换成wrtbwmon
 
 2023.2.22 流量负载监控vnstat换成statistics
