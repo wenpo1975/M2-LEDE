@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/sdf8057/openwrt.git
-  REPO_BRANCH: ipq6000
+  REPO_URL: https://github.com/8688Add/ipq6000.git
+  REPO_BRANCH: wifi
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/cmiot_ax18/cmiot_ax18_plus.config
   DIY_P1_SH: ./custom/cmiot_ax18/plus/diy-part1.sh
