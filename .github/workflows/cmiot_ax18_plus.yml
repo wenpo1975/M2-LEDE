@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: ZM-M2
+name: m2
 
 on:
   repository_dispatch:
@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/8688Add/ipq6000.git
-  REPO_BRANCH: wifi
+  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: ./config/cmiot_ax18/cmiot_ax18_plus.config
   DIY_P1_SH: ./custom/cmiot_ax18/plus/diy-part1.sh
